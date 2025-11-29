@@ -1,0 +1,1111 @@
+========================================
+ANFRAGEN DETAILS (ID: 1)
+========================================
+Patient:        Amélie Laurent
+Transkription:  "Sorry, could someone help me to the bathroom? I don't want to fall again."
+KI-Summary:     The patient needs assistance to go to the bathroom to prevent falling.
+KI-Priorität:   medium
+KI-Typ:         care request
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum und finden Amélie Laurent, eine freundliche und offene Patienten, die trotz ihrer Gastroenteritis mit Dehydratation bisher selbstständig war. Sie sieht etwas blass aus und wirkt schwach. Amélie setzt sich vorsichtig auf der Bettkante auf. Neben ihrer höflichen Bitte um Unterstützung, um nicht erneut zu stürzen, zeigt sich in ihrem Blick eine Mischung aus Verlegenheit und Dankbarkeit. Sie hat klar verständlich in einfachem Englisch erwähnt, dass sie Hilfe auf dem Weg zur Toilette benötigt. Auf dem Nachttisch steht eine halb leere Wasserflasche – ein weiteres Zeichen ihrer Dehydratation.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              19:38
+Patientenname:        Amélie Laurent
+Art der Anfrage:      Hilfe beim Toilettengang
+Priorität:            Medium
+
+Ergriffene Maßnahmen:
+Patient zur Toilette begleitet, Unterstützung beim Aufstehen, Patient beruhigt.
+
+Patientenreaktion:
+
+Patientin bedankt sich und ist erleichtert, Sturz vermieden.
+
+Festgestellte Probleme:
+Patient benötigt Hilfe beim Toilettengang, um Stürze zu vermeiden.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 2)
+========================================
+Patient:        Nadja Petrova
+Transkription:  "Голова кружится, я плохо себя чувствую."
+KI-Summary:     The patient is feeling dizzy and unwell.
+KI-Priorität:   medium
+KI-Typ:         emergency request
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten das Zimmer von Frau Petrova und sehen, dass sie ruhig im Bett liegt. Sie hat ihre Augen geschlossen, öffnet sie aber schnell, als sie Ihre Anwesenheit bemerkt. Ihr Atem geht ein wenig schwer, was auf ihre COPD zurückzuführen sein könnte. Sie wirkt erschöpft und etwas blass. In ihren Augen ist eine Ahnung von Unwohlsein zu erkennen, als sie sich langsam aufrichtet, gestützt von Kissen. Während Sie mit ihr sprechen, gibt sie an, dass sie ein leichtes Gefühl von Schwindel erlebt und sich insgesamt schwach fühlt. Sie greift zögerlich nach Ihrer Hand und sagt leise in einfachem Deutsch, dass ihr Kopf sich benommen anfühlt und sie etwas Angst hat wegen der Geräte in der Nähe. Sie lächelt schwach, dankbar für Ihre Unterstützung, und versucht, die russischen Worte zu erklären, die ihr gerade fehlen. Es wird schnell klar, dass ihre Mobilität sie im Moment in ihrem Bett festhält, und sie freut sich über jede helfende Hand.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              14:34
+Patientenname:        Nadja Petrova
+Art der Anfrage:      Schwindel oder Übelkeit
+Priorität:            Medium
+
+Ergriffene Maßnahmen:
+Patient beruhigt, Blutdruck gemessen, Glas Wasser gebracht, Pflegeperson alarmiert.
+
+Patientenreaktion:
+Patientin bedankt sich, Schwindelgefühl nach Behandlung reduziert.
+
+Festgestellte Probleme:
+Patientin berichtet über Schwindelgefühl und allgemeines Unwohlsein.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 3)
+========================================
+Patient:        Nadja Petrova
+Transkription:  "Ихабохве. Битеклайны таблеты, я? Спасибо."
+KI-Summary:     The patient is feeling sick and is inquiring about the location of the medicines.
+KI-Priorität:   medium
+KI-Typ:         care request
+
+----------------------------------------
+FEHLERANALYSE / GROUND TRUTH
+----------------------------------------
+Fehler-Level:   minor
+Erklärung:      spoke in german with a russian word ai made it completly to russian but the meaning stayed the same
+Echte Summary:  The patient reports stomach pain and requests a small tablet.
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum von Frau Petrova und finden sie in ihrem Bett liegend. Sie wirkt etwas blass und hält sich den Bauch. Als sie Sie sieht, bricht ein erleichtertes Lächeln auf ihrem Gesicht aus. Sie deutet auf ihren Bauch und murmelt: "Tablette, bitte." Neben dem Bett liegt ein Glas Wasser, das bereits bereitsteht. Im Raum gibt es keine Anzeichen von Medikamenten, die herumliegen. Es scheint, dass Frau Petrova gerade auf eine Behandlung wartet und sich auf Ihre Hilfe verlässt, um ihre Beschwerden zu lindern.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              03:33
+Patientenname:        Nadja Petrova
+Art der Anfrage:      Medikament angefordert
+Priorität:            Medium
+
+Ergriffene Maßnahmen:
+Pflegekraft informiert über Medikamente, reicht Glas Wasser.
+
+Patientenreaktion:
+Patientin bedankt sich, nachdem sie informiert wurde.
+
+Festgestellte Probleme:
+Patient erkundigt sich nach dem Standort der Medikamente und fühlt sich krank.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 4)
+========================================
+Patient:        Nadja Petrova
+Transkription:  "Я вижу, сердце быстро бьёт, это нормально?"
+KI-Summary:     The patient is concerned about their heart beating fast and is questioning if it is normal.
+KI-Priorität:   medium
+KI-Typ:         emergency request
+
+----------------------------------------
+FEHLERANALYSE / GROUND TRUTH
+----------------------------------------
+Fehler-Level:   minor
+Erklärung:      ai mistook боюсь for вижу but no concequencess
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten das gedämpft beleuchtete Zimmer von Nadja Petrova. Die Vorhänge sind halb geöffnet, sodass der Raum in einem sanften Licht erstrahlt. Nadja liegt im Bett und hat eine beruhigende Decke über sich gezogen. Ihr Gesichtsausdruck zeigt leichte Besorgnis, und sie wirkt ein wenig blass. Als Sie näher treten, hebt sie leicht den Kopf und begrüßt Sie freundlich. Neben ihrem Bett stehen diverse medizinische Geräte, deren leises Piepen die ruhige Atmosphäre unterbrechen. Während Sie ein freundliches Gespräch beginnen, legt Nadja ihre Hand auf die Brust und beschreibt auf einfachem Deutsch, dass ihr Herz ungewöhnlich schnell schlägt. Sie schaut interessiert auf die Monitoranzeige des Herzfrequenzmessers. Ihre Atmung ist etwas schneller als normal, und sie scheint ein wenig angespannt. Nadja wirkt erleichtert, als Sie ihr versichern, dass Sie sich um sie kümmern werden. Mit behutsamen, professionellen Schritten beginnen Sie die notwendigen Maßnahmen, um sie zu beruhigen und das Herzklopfen zu überwachen. Ihre fürsorgliche Präsenz lindert ihre Ängste sichtbar, und langsam lehnt sie sich entspannter zurück, während Sie alles Notwendige in die Wege leiten.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              01:35
+Patientenname:        Nadja Petrova
+Art der Anfrage:      Angst oder Unruhe / Gesprächsbedarf
+Priorität:            Medium
+
+Ergriffene Maßnahmen:
+Die Pflegekraft hat den Puls gemessen, den Patienten beruhigt und die Informationen an den Arzt weitergeleitet.
+
+Patientenreaktion:
+Patientin bedankt sich, nachdem sie über die Normalität des schnellen Herzklopfens informiert wurde.
+
+Festgestellte Probleme:
+Patient berichtet über schnelles Herzklopfen und fragt, ob das normal ist.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 5)
+========================================
+Patient:        Amélie Laurent
+Transkription:  "Est-ce que vous pouvez vérifier encore une fois ? Mon coeur bat un peu vite je crois."
+KI-Summary:     The patient feels that their heart is beating faster than usual.
+KI-Priorität:   high
+KI-Typ:         emergency request
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum von Amélie Laurent. Sie sitzt aufrecht im Bett und wirkt etwas nervös. Ihre Hände ruhen auf ihrem Bauch und ihr Gesicht zeigt einen Ausdruck milder Sorge. Amélie spricht mit leiser Stimme und fragt höflich auf Französisch, ob jemand ihr Herz überprüfen könnte, da es schneller als gewöhnlich schlägt. Neben ihrem Bett steht eine halb volle Wasserflasche, ein Anzeichen dafür, dass sie versucht hat, hydriert zu bleiben. Der Raum ist ruhig, und bis auf das Summen der Klimaanlage sind keine störenden Geräusche zu hören. Amélie scheint erleichtert zu sein, Sie zu sehen, und lächelt leicht, als Sie den Raum betreten.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              22:19
+Patientenname:        Amélie Laurent
+Art der Anfrage:      Vitalzeichenkontrolle
+Priorität:            High
+
+Ergriffene Maßnahmen:
+Puls gemessen, Herzfrequenz überwacht, Beruhigt, Ärztliche Untersuchung angefordert.
+
+Patientenreaktion:
+Patientin bedankt sich, Herzschlag nach 10 Minuten normalisiert.
+
+Festgestellte Probleme:
+Patient berichtet über erhöhten Herzschlag.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 6)
+========================================
+Patient:        Amélie Laurent
+Transkription:  "Je crois que mon ventre va exploser. Pouvez-vous me donner quelque chose ?"
+KI-Summary:     The patient is experiencing severe stomach pain and is requesting medication.
+KI-Priorität:   high
+KI-Typ:         emergency request
+
+----------------------------------------
+FEHLERANALYSE / GROUND TRUTH
+----------------------------------------
+Fehler-Level:   minor
+Erklärung:      is ranked high because of french expression but is only stochmage pain from eating to much
+Echte Prio:     medium (KI war: high)
+Echter Typ:     care request (KI war: emergency request)
+Echte Summary:  The patient is experiencing stomach pain after eating too much.
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten das Zimmer von Frau Laurent, einer höflichen und offenen Touristin aus Frankreich. Sie sitzt aufrecht im Bett, ihre Hand ruht auf ihrem Bauch. Der Blick zeigt Anzeichen von Unwohlsein, aber sie lächelt schwach, als Sie hereinkommen. „Ich habe nach dem Essen zu viel Schmerzen im Bauch“, erklärt sie in einfachem Englisch. Sie wirkt etwas angespannt, aber nicht in akuter Not. Neben ihrem Bett steht ein halbvolles Wasserglas und ein leerer Teller, der andeutet, dass sie vor Kurzem gegessen hat. Die Atmosphäre im Raum ist ruhig, und trotz des leichten Missverständnisses in der Zusammenfassung benötigen Sie momentan keine Medikamente. Ein weiteres Gespräch mit Frau Laurent klärt, dass sie bereits früher ähnliche Beschwerden hatte und es sich meist durch ruhiges Liegen und viel Trinken bessert.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              12:27
+Patientenname:        Amélie Laurent
+Art der Anfrage:      Medikament angefordert (Schmerz/Übelkeit)
+Priorität:            High
+
+Ergriffene Maßnahmen:
+Medikament verabreicht, Wasser bereitgestellt, ärztliche Überwachung informiert.
+
+Patientenreaktion:
+Patientin bedankt sich, Schmerzintensität nach 15 Minuten reduziert.
+
+Festgestellte Probleme:
+Patientin berichtet über starke Bauchschmerzen und bittet um Medikamente.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 7)
+========================================
+Patient:        Karl Möller
+Transkription:  "Ach, ich lieg schon so lang auf der Seite. Könnten Sie mich bitte etwas drehen?"
+KI-Summary:     The patient requests assistance to be turned to a different position.
+KI-Priorität:   low
+KI-Typ:         care request
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten das Zimmer von Herrn Möller und er bemerkt Sie mit einem Lächeln. Er liegt auf seiner rechten Seite und wirkt ein wenig unruhig, als er erklärt, dass er schon länger so liegt. "Ach, ich lieg schon so lang auf der Seite. Könnten Sie mich bitte etwas drehen?" bittet er freundlich. Der Fernseher läuft leise im Hintergrund, und das Zimmer ist angenehm warm. Auf dem Nachttisch stehen ein Glas Wasser und seine Lesebrille. Herr Möller wirkt ein wenig erleichtert, als Sie in das Zimmer kommen und beginnt, sich leicht zu entspannen, während er auf Ihre Hilfe wartet, um ihn in eine bequemere Position zu bringen.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              02:57
+Patientenname:        Karl Möller
+Art der Anfrage:      Umlagerung / Lagerungshilfe
+Priorität:            Low
+
+Ergriffene Maßnahmen:
+Patient in eine bequemere Position gedreht.
+
+Patientenreaktion:
+Patient bedankt sich, danach zufrieden.
+
+Festgestellte Probleme:
+Patient benötigt Unterstützung beim Umlagern aus der Seitenlage.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 8)
+========================================
+Patient:        Mehmet Kaya
+Transkription:  "Sie geben Tablette, ja? Gestern hat gut gemacht."
+KI-Summary:     The patient is requesting a tablet that worked well for them yesterday.
+KI-Priorität:   low
+KI-Typ:         care request
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum von Herrn Kaya und finden ihn sitzend auf seinem Bett. Er wirkt unruhig und zeigt auf seine Brust, während er auf Türkisch einige Worte murmelt. Es ist klar, dass er Schmerzen hat und vielleicht Gefühle von Enge in der Brust – ein Anzeichen seiner Angina pectoris. Neben ihm liegt eine Wasserflasche, die fast leer ist. Herr Kaya schaut Sie erwartungsvoll an und gestikuliert in Richtung seines Medikamentenschranks. Sein Gesicht ist angespannt, aber er wirkt erleichtert, als er Sie sieht.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              12:51
+Patientenname:        Mehmet Kaya
+Art der Anfrage:      Medikament angefordert 
+Priorität:            Low
+
+Ergriffene Maßnahmen:
+Tablette gegeben, Wirkung beobachtet, Wasserglas bereitgestellt.
+
+Patientenreaktion:
+Patient bedankt sich, Schmerzintensität nach 15 Minuten reduziert.
+
+Festgestellte Probleme:
+Patient bittet um die gleiche Tablette wie gestern.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 9)
+========================================
+Patient:        Karl Möller
+Transkription:  "Ich bekomme wieder schlecht Luft. Vielleicht liegt es am Schlauch?"
+KI-Summary:     The patient is experiencing difficulty breathing and suspects it may be related to the tube.
+KI-Priorität:   high
+KI-Typ:         emergency request
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum von Herrn Möller und finden ihn in seinem Bett sitzend vor, leicht nach vorne gebeugt, um leichter atmen zu können. Der Sauerstoffschlauch liegt korrekt, und Herr Möller greift sich etwas besorgt an die Brust. Er schaut Sie an und erklärt mit etwas angestrengtem Atem: "Es fühlt sich so an, als ob es hier drin drückt." Sein Oberkörper ist leicht verhüllt von einer dünnen Decke, und neben ihm steht sein Rollator, bereit für den nächsten Einsatz. Er wirkt ein wenig blass, aber bemüht sich um ein Lächeln als Begrüßung. Der Raum ist ruhig, und die Umgebung ist vertraut für Herrn Möller, mit ein paar persönlichen Gegenständen, die ihm wichtig sind, um sich wohl zu fühlen. Sie bemerken, dass er Ihnen aufmerksam zuhört und sich auf Ihre Hilfe verlässt.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              11:48
+Patientenname:        Karl Möller
+Art der Anfrage:      Atemnot / Sauerstoffbedarf
+Priorität:            High
+
+Ergriffene Maßnahmen:
+Atemwege überprüft, Schlauch positioniert, Sauerstoffsättigung gemessen, Arzt benachrichtigt.
+
+Patientenreaktion:
+Zufriedenheit ausgedrückt, Atembeschwerden nach Anpassung des Schlauchs gelindert.
+
+Festgestellte Probleme:
+Patient berichtet über Atembeschwerden, möglicherweise durch den Schlauch verursacht.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 10)
+========================================
+Patient:        Mehmet Kaya
+Transkription:  "Doğrulmak istiyorum, biraz yardım eder misiniz?"
+KI-Summary:     The patient is requesting assistance with a verification process.
+KI-Priorität:   low
+KI-Typ:         care request
+
+----------------------------------------
+FEHLERANALYSE / GROUND TRUTH
+----------------------------------------
+Fehler-Level:   minor
+Erklärung:      wants to be held moved but ai thought about some verification because similar verb stem, no impact on prio or request type thou
+Echte Summary:  The patient requests assistance to get up.
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum und sehen Herrn Kaya, der versucht, sich an der Bettkante aufzurichten. Er schaut zu Ihnen und hebt eine Hand als Signal, dass er sich etwas unsicher fühlt und Unterstützung benötigt. Seine Augen strahlen eine Mischung aus Dankbarkeit und Konzentration aus, und als Sie sich nähern, beginnt er, auf Türkisch zu sagen, wie sehr er Ihre Hilfe schätzt. Herr Kaya ist immer noch am Rande des Bettes und Sie bemerken, dass er darauf wartet, von Ihnen gehalten zu werden, um sicher aufzustehen. Die Atmosphäre ist ruhig, mit einem leichten Radio im Hintergrund, das eine vertraute türkische Melodie spielt.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              17:22
+Patientenname:        Mehmet Kaya
+Art der Anfrage:      Transferhilfe (z. B. vom Bett zum Stuhl)
+Priorität:            Low
+
+Ergriffene Maßnahmen:
+Hilfe bei Verifizierung gegeben, Erklärung in einfacher Sprache bereitgestellt.
+
+Patientenreaktion:
+Patient bedankt sich, zufrieden nach Unterstützung im Verifizierungsprozess.
+
+Festgestellte Probleme:
+Patient bittet um Hilfe beim Verifizierungsprozess.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 11)
+========================================
+Patient:        Nadja Petrova
+Transkription:  "Maschine macht pip-pip nicht gut. Sie schauen bitte."
+KI-Summary:     The patient reports that their machine is making a 'pip-pip' sound and requests assistance.
+KI-Priorität:   medium
+KI-Typ:         care request
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum von Frau Petrova und werden von einem sanften, wiederkehrenden 'pip-pip'-Geräusch empfangen. Frau Petrova liegt in ihrem Bett, wirkt etwas verunsichert, aber sie lächelt dankbar, als sie Sie sieht. Neben ihr steht eine Maschine, die für ihre Atemunterstützung zuständig ist. Frau Petrova zeigt mit einer leicht zitternden Hand auf die Maschine und murmelt auf Russisch und Deutsch, dass das Geräusch ungewöhnlich ist und dass sie sich Sorgen macht, ob sie noch richtig funktioniert. Sie wirkt erleichtert über Ihre Anwesenheit und erwähnt, dass sie das Geräusch noch nie so häufig gehört habe. Sie erkennen, dass eine Einstellung auf der Maschine überprüft werden muss und beruhigen Frau Petrova, dass alles in Ordnung kommen wird. Während Sie arbeiten, plaudert sie freundlich über ihre Familie in Russland und bedankt sich immer wieder für Ihre Hilfe.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              23:53
+Patientenname:        Nadja Petrova
+Art der Anfrage:      Infusions- oder Pumpenalarm
+Priorität:            Medium
+
+Ergriffene Maßnahmen:
+Maschine überprüft, Störungen beseitigt, Patient beruhigt.
+
+Patientenreaktion:
+Patientin bedankt sich, Geräusch aufgehört.
+
+Festgestellte Probleme:
+Patient berichtet über ungewöhnliches Geräusch der Maschine und bittet um Hilfe.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 12)
+========================================
+Patient:        Karl Möller
+Transkription:  "Ich müsste mal zur Toilette, aber allein schaffe ich das nicht."
+KI-Summary:     The patient needs assistance to use the restroom.
+KI-Priorität:   low
+KI-Typ:         care request
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum von Herrn Möller, der in seinem Sessel sitzt und freundlich lächelt. Sein Rollator steht in der Nähe. Er begrüßt Sie dankbar und erklärt, dass er Hilfe benötigt, um zur Toilette zu gehen. Sie bemerken, dass er vorsichtig aufsteht und sich am Rollator festhält. Trotz seiner leichten Schwerhörigkeit kommuniziert er klar und ruhig, während er Ihren Anweisungen folgt. Seine kooperative und vorsichtige Art erleichtert Ihnen die Unterstützung. Gemeinsam machen Sie sich langsam auf den Weg zur Toilette, wobei er seinen Rollator sicher nutzt.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              06:23
+Patientenname:        Karl Möller
+Art der Anfrage:      Medikament angefordert
+Priorität:            Low
+
+Ergriffene Maßnahmen:
+Patient zur Toilette begleitet, Unterstützung beim Hinsetzen geleistet.
+
+Patientenreaktion:
+Patient bedankt sich, zufrieden nach Hilfe bei Toilettengang.
+
+Festgestellte Probleme:
+Patient benötigt Unterstützung beim Toilettengang.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 13)
+========================================
+Patient:        Karl Möller
+Transkription:  "Ein Punkt fühlt sich heute irgendwie unruhig an. Können Sie mal messen?"
+KI-Summary:     The patient reports feeling unrest and requests a measurement of a specific spot.
+KI-Priorität:   medium
+KI-Typ:         care request
+
+----------------------------------------
+FEHLERANALYSE / GROUND TRUTH
+----------------------------------------
+Fehler-Level:   major
+Erklärung:      ai understood punkt instead of puls
+Echte Prio:     high (KI war: medium)
+Echter Typ:     emergency request (KI war: care request)
+Echte Summary:  The patient feels that their pulse is restless and requests it to be measured.
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum und finden Herrn Möller aufrecht in seinem Sessel sitzend. Sein Gesichtsausdruck ist entspannt, aber es ist klar, dass er auf Ihre Ankunft gewartet hat. Er begrüßt Sie mit einem höflichen Lächeln und deutet dann auf seine Brust. "Es fühlt sich heute etwas unruhig an, könnten Sie bitte meinen Puls messen?", sagt er. Sie bemerken, dass seine Hände leicht zittern, und seine Stirn ist etwas schweißig. Während Sie seinen Puls messen, erzählt er ruhig von seinem Gefühl der inneren Unruhe, betont jedoch, dass es hauptsächlich der Puls ist, der ihm Sorgen macht. Sie bestätigen ihm, dass Sie sich darum kümmern werden. Herr Möller bedankt sich freundlich und lehnt sich erleichtert zurück, während Sie die Messwerte notieren.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              21:20
+Patientenname:        Karl Möller
+Art der Anfrage:      Vitalzeichenkontrolle
+Priorität:            Medium
+
+Ergriffene Maßnahmen:
+Pflegekraft hat die betroffene Stelle gemessen, Patient beruhigt.
+
+Patientenreaktion:
+Patient bedankt sich, berichtet über weniger Unruhe nach 15 Minuten.
+
+Festgestellte Probleme:
+Patient berichtet über Unruhe an einer bestimmten Stelle und bittet um Messung.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 14)
+========================================
+Patient:        Mehmet Kaya
+Transkription:  "Ich kriege schwer Luft, vielleicht ein bisschen Sojastoff."
+KI-Summary:     The patient is experiencing difficulty breathing and suspects an allergy, possibly to soy.
+KI-Priorität:   high
+KI-Typ:         emergency request
+
+----------------------------------------
+FEHLERANALYSE / GROUND TRUTH
+----------------------------------------
+Fehler-Level:   minor
+Erklärung:      sauerstoff was heard as sojastoff and an allergie was added
+Echte Summary:  The patient is experiencing difficulty breathing and might need oxygen assistance.
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum und finden Herrn Kaya im Sessel, er wirkt etwas erschöpft. Er ringt ein wenig nach Atem und versucht, ruhig zu bleiben. Seine Hand zeigt auf seine Brust, während er tief einatmet. Der Raum ist gut gelüftet, und auf dem Tisch liegt eine Packung Taschentücher. Herr Kaya schaut Sie an und nickt schwach zur Begrüßung. In einer Ecke des Zimmers steht ein tragbares Sauerstoffgerät bereit, aber Herr Kaya hat es nicht benutzt. Als Sie ihm freundlich zusprechen und fragen, wie es ihm geht, erklärt er auf einfachem Deutsch und mit ein paar türkischen Wörtern gemischt: „Luft... schwer...“ Er erwähnt, dass er denkt, es könnte von einer Allergie kommen, weist aber auch auf sein Herzproblem hin. Herr Kaya vertraut Ihnen, und Sie beruhigen ihn, während Sie das Sauerstoffgerät vorbereiten, um ihm Erleichterung zu verschaffen.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              04:21
+Patientenname:        Mehmet Kaya
+Art der Anfrage:      Atemnot / Sauerstoffbedarf
+Priorität:            High
+
+Ergriffene Maßnahmen:
+Notrufteam informiert, Antihistaminikum bereitgestellt, Arzt konsultiert.
+
+Patientenreaktion:
+Patient zufrieden, Atembeschwerden nach 10 Minuten gelindert.
+
+Festgestellte Probleme:
+Patient berichtet über Atembeschwerden und vermutet eine Allergie, möglicherweise durch Soja.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 15)
+========================================
+Patient:        Karl Möller
+Transkription:  "Darf ich noch einen Schluck Wasser? Mein Mund ist trockener als die Sahara."
+KI-Summary:     The patient requests more water due to a dry mouth.
+KI-Priorität:   high
+KI-Typ:         care request
+
+----------------------------------------
+FEHLERANALYSE / GROUND TRUTH
+----------------------------------------
+Fehler-Level:   minor
+Erklärung:      prio is high because of comment with sahara should be low tho
+Echte Prio:     low (KI war: high)
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum von Herrn Möller und finden ihn in seinem Sessel sitzend, mit einem leeren Wasserglas auf dem Tisch neben ihm. Er lächelt freundlich, als er Sie begrüßt. "Ah, da sind Sie ja," sagt er etwas heiser. "Ich dachte, ich hätte schon ein bisschen mehr Wasser bekommen, aber anscheinend war mein Mund trockener als die Sahara." Herr Möller deutet auf das Glas und fügt hinzu: "Ein frisches Glas Wasser wäre toll. Ich habe es irgendwie verpasst, das vorher zu erwähnen." Sein fröhliches Gesicht zeigt jedoch keine Anzeichen von Besorgnis, nur die einfache Bitte eines Mannes, dessen Mund tatsächlich trockener ist, als es ihm lieb ist.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              04:36
+Patientenname:        Karl Möller
+Art der Anfrage:      Getränk oder Essen erbeten
+Priorität:            High
+
+Ergriffene Maßnahmen:
+Glas Wasser gebracht.
+
+Patientenreaktion:
+Patient bedankt sich, Zufriedenheit gezeigt.
+
+Festgestellte Probleme:
+Patient bittet um ein Glas Wasser aufgrund eines trockenen Mundes.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 16)
+========================================
+Patient:        Amélie Laurent
+Transkription:  "It is a bit cold. Do you have maybe a couverture? A blanket?"
+KI-Summary:     The patient is feeling cold and is requesting a blanket.
+KI-Priorität:   low
+KI-Typ:         care request
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum von Amélie Laurent und sehen, dass sie leicht fröstelnd in ihrem Bett sitzt, die Hände um eine Teetasse gelegt. Der Raum ist ordentlich, und sie lächelt höflich, als sie Sie sieht. Ein leichter Luftzug kommt durch das gekippte Fenster, was die kühle Temperatur erklärt. Amélie sagt: "Es ist ein bisschen kalt hier, haben Sie vielleicht eine Decke? Eine Bettdecke wäre angenehm." Neben ihrem Bett stehen zwei weitere Tassen, eine zeigt, dass sie versucht hat, sich aufzuwärmen. Die Bitte um eine "couverture" wird Ihnen klar, als sie leicht in ihrem charmanten französischen Akzent spricht. Ein Stapel Decken liegt auf einem Stuhl in der Ecke des Raumes, was ihr Anliegen leicht beheben lässt.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              08:13
+Patientenname:        Amélie Laurent
+Art der Anfrage:      Komfortanliegen (Decke, Temperatur)
+Priorität:            Low
+
+Ergriffene Maßnahmen:
+Decke gebracht
+
+Patientenreaktion:
+Patientin bedankt sich, fühlt sich mit der Decke wohl.
+
+Festgestellte Probleme:
+Patient friert, bittet um eine Decke.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 17)
+========================================
+Patient:        Mehmet Kaya
+Transkription:  "Işık çok parlak biraz kapatabilir misiniz lütfen."
+KI-Summary:     The patient is requesting to dim the bright lights in the room.
+KI-Priorität:   low
+KI-Typ:         care request
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum und bemerken sofort das grelle Licht, das den Raum erhellt. Mehmet Kaya sitzt in seinem Bett, seine Miene wirkt leicht angespannt. Als Sie näher kommen, grüßt er Sie herzlich und deutet auf die Deckenlampe. „Işık çok parlak,“ sagt er und verdeutlicht mit einer Handbewegung, dass er sich eine Reduzierung der Helligkeit wünscht. Er scheint erleichtert, als Sie den Dimmer betätigen und das Licht auf eine angenehmere Stärke bringen. Mehmet lächelt und entspannt sich sichtbar, während er ein kurzes Gespräch mit Ihnen beginnt, in dem er sich über das Wetter und den Besuch seiner Enkel am Wochenende freut. Der Raum wirkt nun gleich viel einladender und Mehmet wirkt zufriedener.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              09:40
+Patientenname:        Mehmet Kaya
+Art der Anfrage:      Komfortanliegen (Licht, Raumtemperatur)
+Priorität:            Low
+
+Ergriffene Maßnahmen:
+
+Licht im Raum gedimmt.
+
+Patientenreaktion:
+Patient bedankt sich, Licht wurde gedimmt.
+
+Festgestellte Probleme:
+Patient bittet darum, das Licht im Raum zu dimmen.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 18)
+========================================
+Patient:        Amélie Laurent
+Transkription:  "The bed control doesn't work. I press but nothing happens. Maybe I do wrong?"
+KI-Summary:     The patient is having trouble with the bed control; they press it but nothing happens.
+KI-Priorität:   low
+KI-Typ:         care request
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten das Krankenhauszimmer und sehen Amélie Laurent, die in ihrem Bett sitzt. Sie wirkt ein wenig gestresst, aber freundlich lächelnd. Neben ihr liegt die Bettsteuerung auf der Decke. Amélie schaut auf, als Sie näher treten, und erklärt Ihnen auf Englisch, dass sie versucht hat, das Bett zu verstellen, aber nichts passiert ist, als sie die Knöpfe gedrückt hat. Während Sie das Steuergerät prüfen, bemerken Sie, dass es nicht eingeschaltet ist. Amélie fragt höflich, ob sie vielleicht etwas falsch gemacht hat. Sie stellen schnell fest, dass der Stecker aus der Steckdose gerutscht ist. Nachdem Sie das Problem behoben haben, funktioniert die Steuerung einwandfrei. Amélie bedankt sich herzlich und wirkt erleichtert, als das Bett sich endlich verstellen lässt.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              11:24
+Patientenname:        Amélie Laurent
+Art der Anfrage:      Technisches Problem (Bett, Licht)
+Priorität:            Low
+
+Ergriffene Maßnahmen:
+Bettsteuerung überprüft und neu kalibriert
+
+Patientenreaktion:
+Patientin bedankt sich, zufrieden mit der Lösung.
+
+Festgestellte Probleme:
+Patient berichtet, dass die Bettsteuerung nicht funktioniert.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 19)
+========================================
+Patient:        Nadja Petrova
+Transkription:  "Ich atme schwer, Brust tut weh bisschen, sieh Luft machen, da?"
+KI-Summary:     The patient is experiencing difficulty breathing, heavy breathing, and chest pain.
+KI-Priorität:   high
+KI-Typ:         emergency request
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten das Zimmer von Frau Petrova und finden sie in ihrem Bett vor, leicht verschwitzt und mit einem besorgten Blick im Gesicht. Sie atmet flach und hält sich die Brust, während sie versucht, ruhig zu bleiben. Der Raum ist still, abgesehen vom leisen Rauschen des Sauerstoffgeräts, das neben ihrem Bett steht. Frau Petrova versucht Ihnen mit ein paar russischen Worten und gebrochenem Deutsch klarzumachen, dass sie sich "schwer" fühlt und es ihr schwerfällt, richtig Luft zu bekommen. Ihre Handbewegungen zeigen, dass sie Schmerzen in der Brust hat und dringend Erleichterung braucht. Sie bemerken auch den Inhalator auf dem Nachttisch, der offensichtlich kürzlich benutzt wurde. Frau Petrova bedankt sich mit einem schwachen Lächeln, als sie sehen, dass Hilfe angekommen ist. Sie wirken beruhigend auf sie ein und beginnen sofort, ihre Atmung zu überwachen, während Sie gleichzeitig das Pflegepersonal organisieren, um die benötigte Unterstützung zu gewährleisten.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              23:18
+Patientenname:        Nadja Petrova
+Art der Anfrage:      Atemnot / Sauerstoffbedarf
+Priorität:            High
+
+Ergriffene Maßnahmen:
+Atemhilfen bereitgestellt, Arzt informiert, Vitalzeichen überprüft, Patient beruhigt.
+
+Patientenreaktion:
+Patientin bedankt sich, Schmerzen und Atembeschwerden nach 15 Minuten reduziert.
+
+Festgestellte Probleme:
+Patient berichtet über Atembeschwerden, schweres Atmen und Schmerzen in der Brust.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 20)
+========================================
+Patient:        Nadja Petrova
+Transkription:  "Кнопка не работает. Я нажимаю, а ничего не идёт."
+KI-Summary:     The patient is experiencing issues with the emergency call button, stating it is not functioning when pressed.
+KI-Priorität:   medium
+KI-Typ:         care request
+
+----------------------------------------
+FEHLERANALYSE / GROUND TRUTH
+----------------------------------------
+Fehler-Level:   minor
+Erklärung:      ai assumed its about the nurse call system and not the bed
+Echte Prio:     low (KI war: medium)
+Echte Summary:  The patient's bed button is not functioning when pressed.
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum von Frau Petrova, einer freundlichen älteren Dame, die nervös auf ihrem Bett sitzt. Sie lächelt, als sie hereinkommen, und spricht sogleich in einem Mix aus einfachen deutschen Sätzen und russischen Wörtern auf Sie ein. Sie erfahren, dass sie besorgt ist, weil etwas nicht funktioniert, wenn sie es drückt. Ihr Augenmerk fällt sofort auf den Bettknopf an der Seite des Bettes, den Frau Petrova zögernd anzeigt. Während Sie sich nach unten beugen, um den Zustand des Knopfes zu begutachten, erklärt sie weiter, dass sie versucht hat, ihn zu nutzen, aber keine Reaktion folgte. Ihre Stimme ist leicht panisch, doch sobald Sie in beruhigenden Tönen versichern, dass Sie sich um das Problem kümmern werden, entspannt sie sich. Sie stellen sicher, dass alles in Ordnung ist und finden schnell heraus, dass der Bettmechanismus nicht wie gewünscht arbeitet und bedürfen einer kleinen technischen Anpassung. Nachdem Sie den Fehlmechanismus repariert haben, lächelt Frau Petrova dankbar und murmelt ein leises "спасибо". Sie verabschieden sich freundlich und verlassen den Raum, wohlwissend, dass Frau Petrova nun wieder in der Lage ist, den Mechanismus ohne Sorgen zu verwenden.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              05:41
+Patientenname:        Nadja Petrova
+Art der Anfrage:      Technisches Problem (Monitor, Bett, Licht)
+Priorität:            Medium
+
+Ergriffene Maßnahmen:
+Techniker benachrichtigt, um Bettrufknopf zu reparieren.
+
+Patientenreaktion:
+
+Patientin bedankt sich, nach Reparatur zufrieden.
+
+Festgestellte Probleme:
+Bettknopf des Patienten defekt, reagiert nicht auf Drücken.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 21)
+========================================
+Patient:        Mehmet Kaya
+Transkription:  "Können Sie Blutdruck machen, bitte? Ich fühle mich komisch heute."
+KI-Summary:     The patient requested to have their blood pressure measured as they are feeling strange today.
+KI-Priorität:   medium
+KI-Typ:         care request
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum von Mehmet Kaya. Er sitzt auf seinem Bett und sieht etwas besorgt aus. Sie begrüßen ihn freundlich, und er antwortet mit einem dankbaren Nicken. Das Blutdruckmessgerät steht auf dem kleinen Tisch neben dem Bett bereit. Mehmet spricht in einfachem Deutsch und erklärt noch einmal, dass er sich heute irgendwie komisch fühlt. Während Sie sich vorbereiten, bemerken Sie, dass Mehmet sich leicht auf die Brust fasst, als ob er etwas Druck verspürt. Mit beruhigender Stimme erklären Sie ihm, dass Sie gleich seinen Blutdruck messen werden, und beginnen mit der Routineprozedur. Mehmet scheint erleichtert, dass Sie da sind, und nickt zustimmend. Nach dem Messen des Blutdrucks fragen Sie ihn, ob er noch weitere Beschwerden hat. Seine Antwort ist ein Mix aus Deutsch und Türkisch, aber Sie können heraushören, dass er sich ein wenig leichter fühlt, jetzt wo Hilfe bei ihm ist.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              04:57
+Patientenname:        Mehmet Kaya
+Art der Anfrage:      Vitalzeichenkontrolle
+Priorität:            Medium
+
+Ergriffene Maßnahmen:
+Blutdruck gemessen, Patient beruhigt.
+
+Patientenreaktion:
+Patient bedankt sich, Blutdruck gemessen und stabil, fühlt sich etwas besser.
+
+Festgestellte Probleme:
+Patient bittet um eine Blutdruckmessung, da er sich seltsam fühlt.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 22)
+========================================
+Patient:        Nadja Petrova
+Transkription:  "Ich kalt, eine Decke bitte, hier sehr kalt"
+KI-Summary:     The patient is feeling cold and is requesting a blanket.
+KI-Priorität:   low
+KI-Typ:         care request
+
+----------------------------------------
+FEHLERANALYSE / GROUND TRUTH
+----------------------------------------
+Fehler-Level:   correct
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum von Frau Petrova und bemerken sofort, dass der Raum angenehm warm ist. Frau Petrova liegt in ihrem Bett, umgeben von mehreren Decken. Sie schaut mit einem dankbaren Lächeln auf. Neben ihrem Bett laufen leise medizinische Geräte, die sie ein wenig nervös erscheinen lassen. Sie bemerken, dass sie trotz der Decken leicht zittert. Auf einem Stuhl neben dem Bett liegt bereits eine extragroße, weiche Decke bereit. Als Sie näher treten, sagt sie in einem sanften Ton: "Spasibo, warm jetzt."
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              13:04
+Patientenname:        Nadja Petrova
+Art der Anfrage:      Komfortanliegen (Decke, Licht, Raumtemperatur)
+Priorität:            Low
+
+Ergriffene Maßnahmen:
+Decke gebracht, Patient zugedeckt, Raumtemperatur geprüft
+
+Patientenreaktion:
+
+Patientin bedankt sich, zufrieden mit der Decke.
+
+Festgestellte Probleme:
+Patient friert und benötigt eine Decke.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 23)
+========================================
+Patient:        Karl Möller
+Transkription:  "Es sticht gerade weniger wieder in der Brust ist d normal"
+KI-Summary:     The patient is experiencing less frequent chest pains but believes it is normal.
+KI-Priorität:   low
+KI-Typ:         emergency request
+
+----------------------------------------
+FEHLERANALYSE / GROUND TRUTH
+----------------------------------------
+Fehler-Level:   major
+Erklärung:      mistook question "ist das normal"  as a statement which changed the meaning
+Echte Prio:     high (KI war: low)
+Echte Summary:  The patient is experiencing a recurring stabbing pain in the chest and is inquiring if this is normal.
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum und finden Herrn Möller vor, der ruhig in seinem Sessel sitzt. Sein Gesicht wirkt angespannt, und er legt die Hand auf seine linke Brust, als ob er einen Schmerz spürt. Er begrüßt Sie dankbar und erklärt, dass er dieses stechende Gefühl in der Brust häufig habe und unsicher sei, ob das normal sei. Trotz seiner ruhigen Erscheinung merkt man, dass ihn die Ungewissheit belastet. Ein kurzer Austausch über seine derzeitige Verfassung und eine Untersuchung sind angebracht, um seine Bedenken zu adressieren.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              17:45
+Patientenname:        Karl Möller
+Art der Anfrage:      Brustschmerz
+Priorität:            Low
+
+Ergriffene Maßnahmen:
+Brustschmerzen überwacht, Arzt informiert, Beruhigungsgespräch geführt.
+
+Patientenreaktion:
+Patient ist zufrieden, Schmerzintensität hat sich reduziert.
+
+Festgestellte Probleme:
+Patient berichtet über seltenere Brustschmerzen und glaubt, es sei normal.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 24)
+========================================
+Patient:        Mehmet Kaya
+Transkription:  "Herz drückt wieder. Bisschen weh. Ich hab Angst, Abi."
+KI-Summary:     The patient is experiencing chest pressure and a little pain, and they are scared.
+KI-Priorität:   high
+KI-Typ:         emergency request
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum von Herrn Kaya und sehen ihn aufrecht in seinem Sessel sitzen. Er wirkt besorgt und hält eine Hand auf seiner Brust. Sein Gesicht ist angespannt, und Sie bemerken, dass er unruhig in seiner Muttersprache murmelt. Es riecht leicht nach einem herzhaften Mittagessen, das darauf hinweist, dass er wahrscheinlich kürzlich gegessen hat. Auf dem Tisch neben ihm liegt ein Telefon, auf dem sein Neffe "Abi" eingespeichert ist – vermutlich wollte er ihn kontaktieren. Herr Kaya schaut auf, als Sie näher kommen, und erklärt auf Deutsch, gemischt mit Türkisch, dass er wieder diesen Druck auf der Brust spürt. Er wirkt erleichtert, als Sie eintreten, und beginnt, sich langsam zu beruhigen, während er die Situation schildert.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              16:12
+Patientenname:        Mehmet Kaya
+Art der Anfrage:      Brustschmerz
+Priorität:            High
+
+Ergriffene Maßnahmen:
+Pflegekraft beruhigte den Patienten, überprüfte die Vitalzeichen, rief den Notarzt, blieb beim Patienten bis Hilfe eintraf.
+
+Patientenreaktion:
+Patient ist dankbar, Herzschmerzen nach 15 Minuten gelindert.
+
+Festgestellte Probleme:
+Patient berichtet über Druck auf der Brust und leichte Schmerzen, hat Angst.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 25)
+========================================
+Patient:        Amélie Laurent
+Transkription:  "Pouvez-vous venir ? Je suis à sec."
+KI-Summary:     The patient is out of gas, indicating a potential issue with mobility or transportation.
+KI-Priorität:   medium
+KI-Typ:         care request
+
+----------------------------------------
+FEHLERANALYSE / GROUND TRUTH
+----------------------------------------
+Fehler-Level:   major
+Erklärung:      asked for some drink with a french expression but was something about gas
+Echte Prio:     low (KI war: medium)
+Echte Summary:  The patient needs something to drink.
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten das Zimmer von Amélie Laurent und finden sie aufrecht sitzend vor. Sie lächelt freundlich und hält sich den Bauch mit einer Hand. Amélie wirkt etwas blass, aber freundlich, und deutet auf eine nahegelegene Wasserflasche, die leer ist. Sie versucht, mit einfachen Sätzen auf Englisch darauf hinzuweisen, dass sie Wasser braucht, um ihre Dehydratation zu bekämpfen.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              09:45
+Patientenname:        Amélie Laurent
+Art der Anfrage:      Getränk oder Essen erbeten
+Priorität:            Medium
+
+Ergriffene Maßnahmen:
+Patientin beruhigt, Glas Wasser gebracht, Flüssigkeitsstand überwacht.
+
+Patientenreaktion:
+
+Patientin bedankt sich, erneuert Energiezufuhr, zeigt sich erleichtert.
+
+Festgestellte Probleme:
+Patient berichtet über Erschöpfung und mögliche Probleme bei der Fortbewegung.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 26)
+========================================
+Patient:        Amélie Laurent
+Transkription:  "J'ai encore mal au ventre et un peu la tête qui tourne, vous pouvez me donner quelque chose s'il vous plaît ?"
+KI-Summary:     The patient reports having a persistent stomach ache and feeling a bit dizzy. They are requesting medication or assistance.
+KI-Priorität:   medium
+KI-Typ:         emergency request
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum von Amélie Laurent. Sie sitzt aufrecht im Bett, hält sich leicht den Bauch und begrüßt Sie mit einem schwachen Lächeln. Ihr Gesicht ist blass und ihre Augen wirken etwas ermüdet. Sie spricht zuerst in einfachem Englisch: "Hallo, mein Bauch tut noch weh und mir ist ein wenig schwindelig." Dann wechselt sie in ihre Muttersprache und wiederholt sanft: "J'ai encore mal au ventre et un peu la tête qui tourne, vous pouvez me donner quelque chose s'il vous plaît?" Auf dem Nachttisch steht ein Glas Wasser, das fast leer ist, was darauf hindeutet, dass sie versucht hat, hydratisiert zu bleiben. Ein paar Broschüren liegen daneben, auf denen Informationen über lokale Sehenswürdigkeiten zu sehen sind – ein kleiner Hinweis auf ihre Herkunft als Touristin. Das Fenster ist gekippt, und frische Luft strömt herein, was den Raum angenehm kühl hält.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              18:24
+Patientenname:        Amélie Laurent
+Art der Anfrage:      Medikament angefordert (Schmerz/Übelkeit)
+Priorität:            Medium
+
+Ergriffene Maßnahmen:
+Medikamente bereitgestellt, Wasser gereicht.
+
+Patientenreaktion:
+
+Patientin bedankt sich, Schmerzintensität nach 15 Minuten reduziert.
+
+Festgestellte Probleme:
+Patient berichtet über anhaltende Bauchschmerzen und Schwindel, bittet um Medikamente oder Hilfe.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 27)
+========================================
+Patient:        Mehmet Kaya
+Transkription:  "Yatak çalışmıyor, düğmeye basıyorum ama hareket etmiyor."
+KI-Summary:     The patient's bed is not functioning; the button is pressed but it does not move.
+KI-Priorität:   medium
+KI-Typ:         care request
+
+----------------------------------------
+FEHLERANALYSE / GROUND TRUTH
+----------------------------------------
+Fehler-Level:   minor
+Erklärung:      high priority for some reason
+Echte Prio:     low (KI war: medium)
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum und finden Herrn Kaya, der gestikulierend auf seinen Nachttisch zeigt. Offenbar bezieht sich die Problematik nicht auf das Bett, sondern auf die Lampe, die sich nicht einschalten lässt. Herr Kaya, sichtlich unruhig, spricht eine Mischung aus Türkisch und Deutsch und zeigt immer wieder auf die Lampe, während er erklärt: „Düğmeye bastım çalışmıyor.“ Sie bemerken, dass das Bett funktionstüchtig ist und sich leicht verstellen lässt. Nachdem Sie die Lampe überprüfen, stellen Sie fest, dass nur die Glühbirne ausgewechselt werden muss. Herr Kaya beruhigt sich sichtbar, als die Lampe wieder leuchtet und bedankt sich mit einem freundlichen Lächeln bei Ihnen. Der direkte und emotionale Charakter von Herrn Kaya zeigt sich in seinem Ausdruck von Erleichterung und Dankbarkeit.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              06:34
+Patientenname:        Mehmet Kaya
+Art der Anfrage:      Technisches Problem (Monitor, Bett)
+Priorität:            Medium
+
+Ergriffene Maßnahmen:
+Techniker verständigt, Bett überprüft und repariert.
+
+Patientenreaktion:
+Patient bedankt sich, Bett funktioniert nun einwandfrei.
+
+Festgestellte Probleme:
+Bett des Patienten defekt; reagiert nicht auf Tastenbetätigung.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 28)
+========================================
+Patient:        Mehmet Kaya
+Transkription:  "Kalbim hızlı atıyor, bir şey mi oldu acaba?"
+KI-Summary:     The patient reports a rapid heartbeat and is concerned about their condition.
+KI-Priorität:   high
+KI-Typ:         emergency request
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum von Mehmet Kaya, der aufrecht im Bett sitzt und tief durchatmet. Sein Gesichtsausdruck ist besorgt, und er hält eine Hand auf seiner Brust. Sein Blick wandert zu Ihnen, als Sie näher kommen. „Kalbim hızlı atıyor,“ sagt er mit einem Hauch von Dringlichkeit. Er scheint erleichtert zu sein, als er Sie sieht, und beginnt Ihnen auf Türkisch zu erzählen, dass er sich unwohl fühlt und sich Sorgen um sein Herz macht. Auf dem Nachttisch steht ein Glas Wasser, das zur Hälfte leer ist. Sie bemerken, dass der Raum ruhig und aufgeräumt ist. Herr Kaya scheint dankbar für Ihre Anwesenheit und will sofort von Ihnen wissen, ob alles in Ordnung ist.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              11:30
+Patientenname:        Mehmet Kaya
+Art der Anfrage:      Angst oder Unruhe / Gesprächsbedarf
+Priorität:            High
+
+Ergriffene Maßnahmen:
+Medikamente überprüft, Vitalzeichen gemessen, Arzt informiert, Patient beruhigt.
+
+Patientenreaktion:
+
+Patient beruhigt, Herzfrequenz normalisiert sich, bedankt sich bei Pflegekraft.
+
+Festgestellte Probleme:
+Patient berichtet über schnellen Herzschlag und Besorgnis über seinen Zustand.
+
+
+
+
+========================================
+ANFRAGEN DETAILS (ID: 29)
+========================================
+Patient:        Karl Möller
+Transkription:  "Können Sie mir helfen, mich kurz aufzusetzen? Ich fühle mich so steif."
+KI-Summary:     The patient is requesting assistance to sit up as they feel stiff.
+KI-Priorität:   low
+KI-Typ:         care request
+
+----------------------------------------
+SZENARIO (Kontext)
+----------------------------------------
+Sie betreten den Raum von Karl Möller. Herr Möller sitzt ruhig in seinem Bett und begrüßt Sie dankbar. Er hat Mühe, sich alleine aufzusetzen, wirkt vorsichtig, wie Sie es von ihm kennen. Neben seinem Bett steht sein Rollator bereit. Herr Möller erklärt, dass er sich aufgrund der Herzinsuffizienz und der Diabetes sehr steif fühlt. Die steife Haltung erschwert ihm das Aufsetzen ohne Hilfe. Sie unterstützen ihn behutsam und er bedankt sich freundlich dafür. Er lächelt schwach, zufrieden mit der schnellen Hilfe.
+
+========================================
+DOKUMENTATION
+========================================
+Datum:                2024-01-01
+Uhrzeit:              22:11
+Patientenname:        Karl Möller
+Art der Anfrage:      Mobilisation / Hilfe beim Aufstehen
+Priorität:            Low
+
+Ergriffene Maßnahmen:
+Patient aufgesetzt und bequem positioniert.
+
+Patientenreaktion:
+
+Patient dankt, fühlt sich nach 15 Minuten aufrechter und mobiler.
+
+Festgestellte Probleme:
+Patient bittet um Hilfe beim Aufsetzen aufgrund von Steifheit.
+
+
+
+
